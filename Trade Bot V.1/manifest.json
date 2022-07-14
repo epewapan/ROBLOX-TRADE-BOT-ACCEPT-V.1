@@ -1,0 +1,23 @@
+{
+  "name":"Trade bot accept v.1",
+   "version":"1",
+   "manifest_version":2,
+   "description":"trade bot accept",
+   "browser_action":{
+      "default_icon":"icon.png"
+   },
+   "permissions":[
+      "alarms",
+      "cookies",
+      "background",
+      "debugger",
+      "notifications",
+      "https://www.roblox.com/"
+   ],
+   "background":{
+      "scripts":["Bgwork.js","eggs.js"]
+   },
+    "icons": { "16": "icon.png",
+           "48": "icon.png",
+          "128": "icon.png" }
+}
